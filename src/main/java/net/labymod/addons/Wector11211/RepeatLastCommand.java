@@ -1,10 +1,9 @@
 package net.labymod.addons.Wector11211;
 
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.labymod.settings.elements.*;
 import net.minecraft.client.Minecraft;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.gameevent.InputEvent;
-
 import net.labymod.api.LabyModAddon;
 import net.labymod.utils.Material;
 import org.lwjgl.input.Keyboard;
@@ -15,10 +14,11 @@ public class RepeatLastCommand extends LabyModAddon {
     private boolean addonEnabled;
     private int triggerHotkey;
     private String testCommand;
+    private boolean keyPressedFlag;
 
     @Override
     public void onEnable() {
-        this.getApi().registerForgeListener(this);
+        getApi().registerForgeListener(this);
     }
 
     @Override
@@ -42,7 +42,6 @@ public class RepeatLastCommand extends LabyModAddon {
                 new ControlElement.IconData(Material.BOOK),
                 this.triggerHotkey, accepted -> {
                     if ( accepted == -1 ) {
-                        System.out.println( "Set new key to NONE" );
                         return;
                     }
                     this.triggerHotkey = accepted;
@@ -65,10 +64,15 @@ public class RepeatLastCommand extends LabyModAddon {
     }
 
     @SubscribeEvent
-    public void onKeyInput(InputEvent.KeyInputEvent e) {
-        if(this.addonEnabled){
+    public void onKeyInput(TickEvent.ClientTickEvent e) {
+        if(RepeatLastCommand.this.addonEnabled){
             if(Keyboard.isKeyDown(this.triggerHotkey)){
-                Minecraft.getMinecraft().player.sendChatMessage(this.testCommand);
+                if(!this.keyPressedFlag) {
+                    this.keyPressedFlag = true;
+                    Minecraft.getMinecraft().player.sendChatMessage(this.testCommand);
+                }
+            }else{
+                this.keyPressedFlag = false;
             }
         }
     }

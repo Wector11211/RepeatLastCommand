@@ -4,9 +4,10 @@ New Key: class net/labymod/settings/elements/ControlElement
 New Key: class net/labymod/settings/elements/ControlElement
 New Key: class net/labymod/settings/elements/ControlElement
 New Key: class net/minecraftforge/fml/common/gameevent/InputEvent
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2659,2671]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/player[2674,2680]::player->field_71439_g
-Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[2688,2703]::sendChatMessage->func_71165_d
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2769,2781]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[2784,2790]::player->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[2798,2813]::sendChatMessage->func_71165_d
+Import: net.labymod.main.LabyMod
 Import: net.labymod.settings.elements.*
 Import: net.minecraft.client.Minecraft
 Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent

@@ -111,7 +111,7 @@
   "cleanWindowTitle": true,
   "fadeOut": true,
   "darkMode": false,
-  "ignoreMigration": false,
+  "ignoreMigration": true,
   "serverBanner": true,
   "showMyName": true,
   "showBossBar": true,

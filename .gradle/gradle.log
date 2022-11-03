@@ -37,15 +37,10 @@ See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more i
 :genSrgs SKIPPED
 :reobfJar
 :extractAnnotationsJar
-:extractRangemapReplacedMain
-D:\LabyMod addons\RepeatLastCommand\build\sources\main\java
-:retromapReplacedMain
-remapping source...
-:sourceJar
 :assemble
 :check UP-TO-DATE
 :build
 
 BUILD SUCCESSFUL
 
-Total time: 9.442 secs
+Total time: 8.186 secs
