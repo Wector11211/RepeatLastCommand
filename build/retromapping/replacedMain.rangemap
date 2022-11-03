@@ -1,0 +1,150 @@
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\assimp_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\bgfx_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\blendish_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\build.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\cuda_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\glfw_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\jemalloc_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\khronos_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\libdivide_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\libffi_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\liburing_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\LICENSE
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\llvm_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\lmdb_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\lwjgl-release-all-zip.json
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\lz4_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\meow_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\meshoptimizer_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\nanosvg_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\nanovg_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\nfd_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\openal_soft_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\openvr_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\openxr_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\opus_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\ovr_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\remotery_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\rpmalloc_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\shaderc_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\tinyexr_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\tinyfd_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\tootle_directxmesh_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\tootle_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\vma_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\xxhash_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\yoga_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\libs\lwjgl\zstd_license.txt
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\build\classes\api
+Unsupposrted library path: D:\LabyMod addons\RepeatLastCommand\build\resources\api
+Symbol range map extraction starting
+Processing 1 files
+startProcessing "net/labymod/addons/Wector11211/RepeatLastCommand.java" md5: 080af39418b7528ef5d21f7fdea2cf18
+@|net/labymod/addons/Wector11211/RepeatLastCommand.java|8|38|net.labymod.addons.Wector11211|package|net.labymod.addons.Wector11211|(file)
+Class Start: net.labymod.addons.Wector11211.RepeatLastCommand
+   @|net/labymod/addons/Wector11211/RepeatLastCommand.java|402|419|RepeatLastCommand|class|net.labymod.addons.Wector11211.RepeatLastCommand|false
+   @|net/labymod/addons/Wector11211/RepeatLastCommand.java|428|440|LabyModAddon|class|net.labymod.api.LabyModAddon|false
+   @|net/labymod/addons/Wector11211/RepeatLastCommand.java|464|476|addonEnabled|field|net.labymod.addons.Wector11211.RepeatLastCommand|addonEnabled|
+   @|net/labymod/addons/Wector11211/RepeatLastCommand.java|495|508|triggerHotkey|field|net.labymod.addons.Wector11211.RepeatLastCommand|triggerHotkey|
+   @|net/labymod/addons/Wector11211/RepeatLastCommand.java|523|529|String|class|java.lang.String|false
+   @|net/labymod/addons/Wector11211/RepeatLastCommand.java|523|529|String|class|java.lang.String|false
+   @|net/labymod/addons/Wector11211/RepeatLastCommand.java|530|541|testCommand|field|net.labymod.addons.Wector11211.RepeatLastCommand|testCommand|
+   Method Start: onEnable()V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|551|559|Override|class|java.lang.Override|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|577|585|onEnable|method|net.labymod.api.LabyModAddon|onEnable|()V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|604|610|getApi|method|net.labymod.api.LabyModAddon|getApi|()Lnet/labymod/api/LabyModAPI;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|613|634|registerForgeListener|method|net.labymod.api.LabyModAPI|registerForgeListener|(Ljava/lang/Object;)V
+   Method End: onEnable()V
+   Method Start: loadConfig()V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|657|665|Override|class|java.lang.Override|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|683|693|loadConfig|method|net.labymod.api.LabyModAddon|loadConfig|()V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|712|724|addonEnabled|field|net.labymod.addons.Wector11211.RepeatLastCommand|addonEnabled
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|727|736|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|739|742|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|758|767|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|770|773|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|785|797|getAsBoolean|method|com.google.gson.JsonElement|getAsBoolean|()Z
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|822|835|triggerHotkey|field|net.labymod.addons.Wector11211.RepeatLastCommand|triggerHotkey
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|838|847|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|850|853|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|868|876|Keyboard|class|org.lwjgl.input.Keyboard|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|877|888|getKeyIndex|method|org.lwjgl.input.Keyboard|getKeyIndex|(Ljava/lang/String;)I
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|889|898|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|901|904|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|915|926|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|932|940|Keyboard|class|org.lwjgl.input.Keyboard|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|941|949|KEY_NONE|field|org.lwjgl.input.Keyboard|KEY_NONE
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|965|976|testCommand|field|net.labymod.addons.Wector11211.RepeatLastCommand|testCommand
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|979|988|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|991|994|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1010|1019|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1022|1025|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1037|1048|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+   Method End: loadConfig()V
+   Method Start: fillSettings(Ljava/util/List;)V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1140|1147|options|param|net.labymod.addons.Wector11211.RepeatLastCommand|fillSettings|(Ljava/util/List;)V|options|0
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1076|1084|Override|class|java.lang.Override|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1105|1117|fillSettings|method|net.labymod.api.LabyModAddon|fillSettings|(Ljava/util/List;)V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1118|1122|List|class|java.util.List|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1123|1138|SettingsElement|class|net.labymod.settings.elements.SettingsElement|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1162|1176|BooleanElement|class|net.labymod.settings.elements.BooleanElement|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1203|1217|BooleanElement|class|net.labymod.settings.elements.BooleanElement|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1291|1314|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1315|1323|Material|class|net.labymod.utils.Material|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1324|1329|LEVER|field|net.labymod.utils.Material|LEVER
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1365|1377|addonEnabled|field|net.labymod.addons.Wector11211.RepeatLastCommand|addonEnabled
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1391|1401|KeyElement|class|net.labymod.settings.elements.KeyElement|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1422|1432|KeyElement|class|net.labymod.settings.elements.KeyElement|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1482|1505|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1506|1514|Material|class|net.labymod.utils.Material|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1515|1519|BOOK|field|net.labymod.utils.Material|BOOK
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1544|1557|triggerHotkey|field|net.labymod.addons.Wector11211.RepeatLastCommand|triggerHotkey
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1599|1607|accepted|param|net.labymod.utils.Consumer<java.lang.Integer>|accept|(Ljava/lang/Integer;)V|accepted|-1
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1643|1649|System|class|java.lang.System|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1650|1653|out|field|java.lang.System|out
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1654|1661|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1770|1783|triggerHotkey|field|net.labymod.addons.Wector11211.RepeatLastCommand|triggerHotkey
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1786|1794|accepted|param|net.labymod.utils.Consumer<java.lang.Integer>|accept|(Ljava/lang/Integer;)V|accepted|-1
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1817|1826|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1829|1840|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1851|1859|Keyboard|class|org.lwjgl.input.Keyboard|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1860|1870|getKeyName|method|org.lwjgl.input.Keyboard|getKeyName|(I)Ljava/lang/String;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1876|1889|triggerHotkey|field|net.labymod.addons.Wector11211.RepeatLastCommand|triggerHotkey
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1914|1924|saveConfig|method|net.labymod.api.LabyModAddon|saveConfig|()V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1960|1973|StringElement|class|net.labymod.settings.elements.StringElement|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|1999|2012|StringElement|class|net.labymod.settings.elements.StringElement|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2060|2083|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2085|2093|Material|class|net.labymod.utils.Material|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2094|2099|PAPER|field|net.labymod.utils.Material|PAPER
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2121|2132|testCommand|field|net.labymod.addons.Wector11211.RepeatLastCommand|testCommand
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2174|2185|testCommand|field|net.labymod.addons.Wector11211.RepeatLastCommand|testCommand
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2188|2196|accepted|param|net.labymod.utils.Consumer<java.lang.String>|accept|(Ljava/lang/String;)V|accepted|-1
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2219|2228|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2231|2242|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2259|2270|testCommand|field|net.labymod.addons.Wector11211.RepeatLastCommand|testCommand
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2294|2304|saveConfig|method|net.labymod.api.LabyModAddon|saveConfig|()V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2336|2343|options|param|net.labymod.addons.Wector11211.RepeatLastCommand|fillSettings|(Ljava/util/List;)V|options|0
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2344|2347|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2381|2388|options|param|net.labymod.addons.Wector11211.RepeatLastCommand|fillSettings|(Ljava/util/List;)V|options|0
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2389|2392|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2420|2427|options|param|net.labymod.addons.Wector11211.RepeatLastCommand|fillSettings|(Ljava/util/List;)V|options|0
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2428|2431|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: fillSettings(Ljava/util/List;)V
+   Method Start: onKeyInput(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2538|2539|e|param|net.labymod.addons.Wector11211.RepeatLastCommand|onKeyInput|(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V|e|0
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2470|2484|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2502|2512|onKeyInput|method|net.labymod.addons.Wector11211.RepeatLastCommand|onKeyInput|(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2513|2537|InputEvent.KeyInputEvent|class|net.minecraftforge.fml.common.gameevent.InputEvent.KeyInputEvent|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2560|2572|addonEnabled|field|net.labymod.addons.Wector11211.RepeatLastCommand|addonEnabled
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2591|2599|Keyboard|class|org.lwjgl.input.Keyboard|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2600|2609|isKeyDown|method|org.lwjgl.input.Keyboard|isKeyDown|(I)Z
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2615|2628|triggerHotkey|field|net.labymod.addons.Wector11211.RepeatLastCommand|triggerHotkey
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2649|2658|Minecraft|class|net.minecraft.client.Minecraft|false
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2659|2671|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2674|2680|player|field|net.minecraft.client.Minecraft|player
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2681|2696|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|net/labymod/addons/Wector11211/RepeatLastCommand.java|2702|2713|testCommand|field|net.labymod.addons.Wector11211.RepeatLastCommand|testCommand
+   Method End: onKeyInput(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V
+Class End  : net.labymod.addons.Wector11211.RepeatLastCommand
+endProcessing "net/labymod/addons/Wector11211/RepeatLastCommand.java"
+

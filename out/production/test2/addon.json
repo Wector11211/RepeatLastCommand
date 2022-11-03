@@ -1,0 +1,10 @@
+{
+  "uuid": "%uuid%",
+  "name": "Repeat Last Command",
+  "mainClass": "net.labymod.addons.Wector11211.RepeatLastCommand",
+  "description": "Assing a hotkey to repeat last chat message or a command.",
+  "version": 1,
+  "author": "Wector11211",
+  "category": 2,
+  "icon": "https://i.imgur.com/5QBYRzi.png"
+}

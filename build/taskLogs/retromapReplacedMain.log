@@ -1,0 +1,19 @@
+Processing 1 files
+Start Processing: net/labymod/addons/Wector11211/RepeatLastCommand.java
+New Key: class net/labymod/settings/elements/ControlElement
+New Key: class net/labymod/settings/elements/ControlElement
+New Key: class net/labymod/settings/elements/ControlElement
+New Key: class net/minecraftforge/fml/common/gameevent/InputEvent
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2659,2671]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[2674,2680]::player->field_71439_g
+Rename method net/minecraft/client/entity/EntityPlayerSP/sendChatMessage (Ljava/lang/String;)V[2688,2703]::sendChatMessage->func_71165_d
+Import: net.labymod.settings.elements.*
+Import: net.minecraft.client.Minecraft
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.gameevent.InputEvent
+Import: net.labymod.api.LabyModAddon
+Import: net.labymod.utils.Material
+Import: org.lwjgl.input.Keyboard
+Import: java.util.List
+End  Processing: net/labymod/addons/Wector11211/RepeatLastCommand.java
+
