@@ -7,15 +7,15 @@ bin
 .project
 
 # idea
-out
-*.ipr
-*.iws
-*.iml
-.idea
+#out
+#*.ipr
+#*.iws
+#*.iml
+#.idea
 
 # gradle
-build
-.gradle
+#build
+#.gradle
 
 # other
 eclipse
