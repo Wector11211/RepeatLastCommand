@@ -14,7 +14,6 @@ import java.util.List;
 public class RepeatLastCommand extends LabyModAddon {
     private boolean addonEnabled;
     private int triggerHotkey;
-    private String testCommand;
     private boolean keyPressedFlag;
 
     @Override
@@ -26,7 +25,6 @@ public class RepeatLastCommand extends LabyModAddon {
     public void loadConfig() {
         this.addonEnabled = getConfig().has( "enabled" ) ? getConfig().get("enabled").getAsBoolean() : true;
         this.triggerHotkey = getConfig().has( "hotkey" ) ? Keyboard.getKeyIndex(getConfig().get("hotkey").getAsString()) : Keyboard.KEY_NONE;
-        this.testCommand = getConfig().has( "command" ) ? getConfig().get("command").getAsString() : "test";
     }
 
     @Override
@@ -50,18 +48,8 @@ public class RepeatLastCommand extends LabyModAddon {
                     saveConfig();
                 });
 
-        StringElement testCommandElement = new StringElement(
-            "Test command",
-            new ControlElement.IconData( Material.PAPER ),
-            this.testCommand, accepted -> {
-                    this.testCommand = accepted;
-                    getConfig().addProperty("command", this.testCommand);
-                    saveConfig();
-            });
-
         options.add( addonEnabledElement );
         options.add( hotkeyElement );
-        options.add( testCommandElement );
     }
 
     @SubscribeEvent
@@ -71,7 +59,11 @@ public class RepeatLastCommand extends LabyModAddon {
                 if (Keyboard.isKeyDown(this.triggerHotkey)) {
                     if (!this.keyPressedFlag) {
                         this.keyPressedFlag = true;
-                        Minecraft.getMinecraft().player.sendChatMessage(this.testCommand);
+                        List recentMessages = Minecraft.getMinecraft().ingameGUI.getChatGUI().getSentMessages();
+                        if(!recentMessages.isEmpty()) {
+                            String lastMessage = recentMessages.get(recentMessages.size() - 1).toString();
+                            Minecraft.getMinecraft().player.sendChatMessage(lastMessage);
+                        }
                     }
                 } else {
                     this.keyPressedFlag = false;
