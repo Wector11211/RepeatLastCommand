@@ -1,5 +1,6 @@
 package net.labymod.addons.Wector11211;
 
+import net.minecraft.client.gui.Gui;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.labymod.settings.elements.*;
@@ -66,13 +67,15 @@ public class RepeatLastCommand extends LabyModAddon {
     @SubscribeEvent
     public void onKeyInput(TickEvent.ClientTickEvent e) {
         if(RepeatLastCommand.this.addonEnabled){
-            if(Keyboard.isKeyDown(this.triggerHotkey)){
-                if(!this.keyPressedFlag) {
-                    this.keyPressedFlag = true;
-                    Minecraft.getMinecraft().player.sendChatMessage(this.testCommand);
+            if(Minecraft.getMinecraft().currentScreen == null) {
+                if (Keyboard.isKeyDown(this.triggerHotkey)) {
+                    if (!this.keyPressedFlag) {
+                        this.keyPressedFlag = true;
+                        Minecraft.getMinecraft().player.sendChatMessage(this.testCommand);
+                    }
+                } else {
+                    this.keyPressedFlag = false;
                 }
-            }else{
-                this.keyPressedFlag = false;
             }
         }
     }
